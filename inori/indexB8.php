@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    $n = 7;
+    //kiểm tra sô dư
+    echo "$n là số:" . ($n % 2 == 0 ? "Chẵn" : "Lẻ");
+    ?>
+</body>
+</html>
