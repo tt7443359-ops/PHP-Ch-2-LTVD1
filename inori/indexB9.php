@@ -17,22 +17,22 @@
     //Điều kiện
     if ($income <= 10000000) {
 
-    $Thuenop = $income*0.05;
+    $thueNop = $income*0.05;
 
-    } elseif ( $income > 10000000 && $income <= 20000000) {
+    } elseif ($income <= 20000000) {
     
-        $Thuenop = $income*0.1;
+        $thueNop = $income*0.1;
     
     } else {
     
-        $Thuenop = $income*0.2;
+        $thueNop = $income*0.2;
 
     }
-    $Thunhaprong = $income - $Thuenop;
+    $thuNhapRong = $income - $thueNop;
 
     //In kết quả
-    echo "Thuế phải nộp là: $Thuenop" . "VND". "<br>";
-    echo "Thu nhập ròng là: $Thunhaprong" . "VND";
+    echo "Thuế phải nộp là: $thueNop" . "VND". "<br>";
+    echo "Thu nhập ròng là: $thuNhapRong" . "VND";
     ?>
 </body>
 </html>

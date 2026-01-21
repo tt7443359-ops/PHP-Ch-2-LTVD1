@@ -11,13 +11,13 @@
     $b = 20;
     $c = 30;
     //Xử lí phép tính
-    $Tong = $a + $b + $c;
-    $Hieu = $a - $b - $c;
-    $Tich = $a * $b * $c;
-    $Thuong = $a /$b /$c;
+    $tong = $a + $b + $c;
+    $hieu = $a - $b - $c;
+    $tich = $a * $b * $c;
+    $thuong = $a /$b /$c;
     //Giá trị đầu ra
-    echo " Tổng: $Tong <br>" , "Hiệu: $Hieu <br>" , "Tích: $Tich <br>";
-    echo " Thương: ". round($Thuong,6) . "...";
+    echo " Tổng: $tong <br>" , "Hiệu: $hieu <br>" , "Tích: $tich <br>";
+    echo " Thương: ". round($thuong,6) . "...";
     ?>
 </body>
 </html>

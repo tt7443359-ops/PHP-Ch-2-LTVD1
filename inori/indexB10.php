@@ -21,10 +21,10 @@
       if ($BMI < 18.5) {
         $result = "Thiếu cân";
 
-    } elseif ($BMI >= 18.5 && $BMI <= 24.9) {
+    } elseif ($BMI <= 24.9) {
         $result = "Bình thường";
 
-    } elseif ($BMI >= 25 && $BMI <=29.9) {
+    } elseif ($BMI <=29.9) {
         $result = "Thừa cân";
 
     } else {
